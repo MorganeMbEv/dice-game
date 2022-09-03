@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dice Game is a interactive game to play for 2!">
+
+  
+  <link rel="stylesheet" href="./css/bulma.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  
+  <title>Dice Game</title>
+
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="header block">
+        <h1 class="title is-2">
+          DICE GAME
+        </h1>
+        
+        <div id="newGame">
+          <button id="btnNewGame" class="button is-danger is-outlined">New Game</button>
+        </div>
+      </div>
+
+      <div id="gamePart" class="columns is-mobile block">
+        <div id="playerOne" class="column">
+          <h2 class="title is-3">PLAYER 1</h2>
+          <p class="score" id="score1">0</p>
+          
+        </div>
+
+        <div id="playerTwo" class="column">
+          <h2 class="title is-3">PLAYER 2</h2>
+          <p class="score" id="score2">0</p>
+          
+        </div>
+      </div>
+      <div class="currentScorePlayer columns">
+        <div class="currentScore column is-narrow">
+          <p>CURRENT</p>
+          <p id="currentScore2">0</p>
+        </div>
+        <div class="column is-narrow">
+          <button id="rollDice" class="button btn-play">ROLL DICE</button><br>
+          <button id="holdScore" class="button btn-play">HOLD</button>
+        </div>
+        <div class="currentScore column is-narrow">
+          <p>CURRENT</p>
+          <p id="currentScore1">0</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="./js/script.js"></script>
+</body>
+</html>

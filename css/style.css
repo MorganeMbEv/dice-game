@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.container {
+  border-radius: 3px;
+  box-shadow: 0 0 1em #E0584D;
+}
+
+.score {
+  font-size: 5rem;
+}
+
+.currentScorePlayer {
+  justify-content: space-evenly;
+}
+.currentScore {
+  background-color: #E0584D;
+  width: min-content;
+  margin: 2rem;
+}
+
+.btn-play{
+  margin-bottom: 1rem;
+}
